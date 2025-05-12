@@ -6,6 +6,7 @@ console.log(3
 let name = "Bhaskar"
 let age = 23
 let isLoggedIn = false
+let state = null;
 
 /* number  = 2^53
    bigInt 
@@ -21,3 +22,4 @@ let isLoggedIn = false
 console.log(typeof isLoggedIn) // boolean
 console.log(typeof null)      // object
 console.log(typeof undefined) // undefined
+console.log(state);
