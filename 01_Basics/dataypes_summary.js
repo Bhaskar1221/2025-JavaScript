@@ -35,4 +35,26 @@ const myfunc = function(){
     
 }
 
-console.log(typeof(myfunc));
+//console.log(typeof(myfunc));
+
+
+/*------------------------------------------------------------ */
+
+let name = 'bhaskar'
+let anothername = 'fulpatiya'
+anothername= 'Girish'
+
+console.log(name, anothername);
+
+
+let newobj = {
+    email: "bhaskarfulpatiya@gmail.com"
+}
+
+let user2 = newobj
+
+user2.email = "fulpatiya@gmail.com"
+
+console.log(newobj.email);
+console.log(user2.email);
+
